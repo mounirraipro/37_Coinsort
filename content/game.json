@@ -4,22 +4,40 @@
   "slug": "coinsort",
   "genre": "Puzzle",
   "iframeUrl": "/game/index.html",
-
   "seo": {
     "title": "Coin Sort – Free Online Puzzle Game | No Download",
     "description": "Play Coin Sort free in your browser — sort coins by colour into matching tubes using logic and planning. A satisfying brain puzzle with no download or account needed.",
-    "keywords": ["Coin Sort", "Coin Sort online", "free puzzle game browser", "coin sorting puzzle", "play Coin Sort no download", "colour sorting game free", "brain teaser online puzzle"]
+    "keywords": [
+      "Coin Sort",
+      "Coin Sort online",
+      "free puzzle game browser",
+      "coin sorting puzzle",
+      "play Coin Sort no download",
+      "colour sorting game free",
+      "brain teaser online puzzle"
+    ]
   },
-
   "homepage": {
     "heroHeadline": "Coin Sort — Free Logic Puzzle Game Online, No Download",
     "heroSubtitle": "Sort coins by colour into matching tubes using pure logic. A satisfying brain puzzle that plays in any browser.",
     "lede": "Coin Sort is a free browser puzzle game where you move coins between tubes to sort each stack by colour. Every tube starts mixed. Your job is to separate them so each tube holds only one colour — using as few moves as possible. No timers, no pressure. Think, plan, and sort.",
     "stats": [
-      { "value": "100+", "label": "Puzzle Levels" },
-      { "value": "6",    "label": "Coin Colours" },
-      { "value": "0",    "label": "Downloads Needed" },
-      { "value": "100%", "label": "Free Forever" }
+      {
+        "value": "100+",
+        "label": "Puzzle Levels"
+      },
+      {
+        "value": "6",
+        "label": "Coin Colours"
+      },
+      {
+        "value": "0",
+        "label": "Downloads Needed"
+      },
+      {
+        "value": "100%",
+        "label": "Free Forever"
+      }
     ],
     "about": {
       "kicker": "What is Coin Sort?",
@@ -32,69 +50,200 @@
       "subheading": "One move at a time. The puzzle logic is clear from the first level — mastery comes from thinking further ahead."
     },
     "steps": [
-      { "icon": "folder",       "title": "Open the Puzzle",        "desc": "Navigate to the Play page. Coin Sort loads in your browser without any installation or account. The first puzzle is ready immediately." },
-      { "icon": "eye",          "title": "Read the Board",         "desc": "Before making any move, look at all the tubes. Identify which colours need to move first to create space, and which empty tubes you'll need to use as temporary holding positions." },
-      { "icon": "refresh",      "title": "Move Coins Between Tubes","desc": "Tap any tube to select the top coin. Tap another tube to place it — the move is only valid if the destination tube is empty or its top coin matches your selected colour. Coins stack in the order you place them." },
-      { "icon": "puzzle",       "title": "Clear Each Colour",      "desc": "The goal is one colour per tube. Work towards sorting one colour completely before starting another. Building full single-colour stacks unlocks space for the remaining moves." },
-      { "icon": "check-circle", "title": "Complete the Level",     "desc": "When every tube holds a single colour (or is empty), the level is complete. Your move count is recorded. The next level unlocks immediately — more colours, tighter margins." }
+      {
+        "icon": "folder",
+        "title": "Open the Puzzle",
+        "desc": "Navigate to the Play page. Coin Sort loads in your browser without any installation or account. The first puzzle is ready immediately."
+      },
+      {
+        "icon": "eye",
+        "title": "Read the Board",
+        "desc": "Before making any move, look at all the tubes. Identify which colours need to move first to create space, and which empty tubes you'll need to use as temporary holding positions."
+      },
+      {
+        "icon": "refresh",
+        "title": "Move Coins Between Tubes",
+        "desc": "Tap any tube to select the top coin. Tap another tube to place it — the move is only valid if the destination tube is empty or its top coin matches your selected colour. Coins stack in the order you place them."
+      },
+      {
+        "icon": "puzzle",
+        "title": "Clear Each Colour",
+        "desc": "The goal is one colour per tube. Work towards sorting one colour completely before starting another. Building full single-colour stacks unlocks space for the remaining moves."
+      },
+      {
+        "icon": "check-circle",
+        "title": "Complete the Level",
+        "desc": "When every tube holds a single colour (or is empty), the level is complete. Your move count is recorded. The next level unlocks immediately — more colours, tighter margins."
+      }
     ],
     "categories": [
-      { "name": "Beginner",     "icon": "star",   "color": "#10b981", "bg": "#d1fae5", "img": "/level-thumbs/category-1.webp" },
-      { "name": "Intermediate", "icon": "target", "color": "#3b82f6", "bg": "#dbeafe", "img": "/level-thumbs/category-2.webp" },
-      { "name": "Advanced",     "icon": "zap",    "color": "#f59e0b", "bg": "#fef3c7", "img": "/level-thumbs/category-3.webp" },
-      { "name": "Expert",       "icon": "trophy", "color": "#8b5cf6", "bg": "#ede9fe", "img": "/level-thumbs/category-4.webp" },
-      { "name": "Master",       "icon": "crown",  "color": "#ef4444", "bg": "#fee2e2", "img": "/level-thumbs/category-5.webp" }
+      {
+        "name": "Beginner",
+        "icon": "star",
+        "color": "#10b981",
+        "bg": "#d1fae5",
+        "img": "/level-thumbs/category-1.webp"
+      },
+      {
+        "name": "Intermediate",
+        "icon": "target",
+        "color": "#3b82f6",
+        "bg": "#dbeafe",
+        "img": "/level-thumbs/category-2.webp"
+      },
+      {
+        "name": "Advanced",
+        "icon": "zap",
+        "color": "#f59e0b",
+        "bg": "#fef3c7",
+        "img": "/level-thumbs/category-3.webp"
+      },
+      {
+        "name": "Expert",
+        "icon": "trophy",
+        "color": "#8b5cf6",
+        "bg": "#ede9fe",
+        "img": "/level-thumbs/category-4.webp"
+      },
+      {
+        "name": "Master",
+        "icon": "crown",
+        "color": "#ef4444",
+        "bg": "#fee2e2",
+        "img": "/level-thumbs/category-5.webp"
+      }
     ],
     "features": [
-      { "icon": "bolt",   "title": "Instant Browser Play",        "desc": "Coin Sort loads in any modern browser in seconds. No download, no account — open the Play page and the first puzzle is ready immediately." },
-      { "icon": "target", "title": "Progressive Logic Challenge", "desc": "100+ levels that scale from accessible to genuinely demanding. Each level introduces slightly more colours and tighter tube margins, building puzzle-solving depth gradually." },
-      { "icon": "device", "title": "Any Device",                  "desc": "Coin Sort works on desktop, tablet, and smartphone. Touch and mouse controls both work natively — the tap-to-select interface is especially smooth on touchscreens." },
-      { "icon": "image",  "title": "Clear Visual Design",         "desc": "Each coin colour is visually distinct. Tube fill levels and coin stack heights are immediately readable. The puzzle state is always clear — no guessing which coin is which." },
-      { "icon": "shield", "title": "Safe for All Ages",           "desc": "Coin Sort has no in-app purchases, no chat features, and no advertising targeting children. The logic puzzle format is appropriate and constructive for players of every age." },
-      { "icon": "music",  "title": "Satisfying Sound Feedback",   "desc": "Coin placement produces distinct audio cues — a clean sound for valid moves, a different cue for invalid ones. Audio supports rather than distracts from the thinking process." }
+      {
+        "icon": "bolt",
+        "title": "Instant Browser Play",
+        "desc": "Coin Sort loads in any modern browser in seconds. No download, no account — open the Play page and the first puzzle is ready immediately."
+      },
+      {
+        "icon": "target",
+        "title": "Progressive Logic Challenge",
+        "desc": "100+ levels that scale from accessible to genuinely demanding. Each level introduces slightly more colours and tighter tube margins, building puzzle-solving depth gradually."
+      },
+      {
+        "icon": "device",
+        "title": "Any Device",
+        "desc": "Coin Sort works on desktop, tablet, and smartphone. Touch and mouse controls both work natively — the tap-to-select interface is especially smooth on touchscreens."
+      },
+      {
+        "icon": "image",
+        "title": "Clear Visual Design",
+        "desc": "Each coin colour is visually distinct. Tube fill levels and coin stack heights are immediately readable. The puzzle state is always clear — no guessing which coin is which."
+      },
+      {
+        "icon": "shield",
+        "title": "Safe for All Ages",
+        "desc": "Coin Sort has no in-app purchases, no chat features, and no advertising targeting children. The logic puzzle format is appropriate and constructive for players of every age."
+      },
+      {
+        "icon": "music",
+        "title": "Satisfying Sound Feedback",
+        "desc": "Coin placement produces distinct audio cues — a clean sound for valid moves, a different cue for invalid ones. Audio supports rather than distracts from the thinking process."
+      }
     ],
     "faq": [
-      { "q": "What is Coin Sort?",             "a": "Coin Sort is a free browser puzzle game where you sort mixed stacks of coloured coins into single-colour tubes. You move coins one at a time between tubes — valid moves go to empty tubes or tubes where the top coin matches. Complete the sort to finish each level." },
-      { "q": "Is Coin Sort free?",             "a": "Yes — Coin Sort is completely free to play, with no paywalls, premium tiers, or in-app purchases." },
-      { "q": "Does Coin Sort work on mobile?", "a": "Yes. Coin Sort is fully touch-responsive and runs in any modern mobile browser without requiring a download or app install. The tap interface works especially well on touchscreens." },
-      { "q": "How many levels are there?",     "a": "Coin Sort features 100+ puzzle levels of progressively increasing difficulty. Later levels introduce more colours and tighter tube margins that require more moves ahead planning to solve." },
-      { "q": "Is Coin Sort safe for kids?",    "a": "Yes. Coin Sort has no chat features, no in-app purchases, and no advertising targeting children. The logic puzzle format is educational and appropriate for all ages." },
-      { "q": "Do I need an account?",          "a": "No account is ever required. Navigate to the Play page and the first puzzle starts immediately — no registration, no login." }
+      {
+        "q": "What is Coin Sort?",
+        "a": "Coin Sort is a free browser puzzle game where you sort mixed stacks of coloured coins into single-colour tubes. You move coins one at a time between tubes — valid moves go to empty tubes or tubes where the top coin matches. Complete the sort to finish each level."
+      },
+      {
+        "q": "Is Coin Sort free?",
+        "a": "Yes — Coin Sort is completely free to play, with no paywalls, premium tiers, or in-app purchases."
+      },
+      {
+        "q": "Does Coin Sort work on mobile?",
+        "a": "Yes. Coin Sort is fully touch-responsive and runs in any modern mobile browser without requiring a download or app install. The tap interface works especially well on touchscreens."
+      },
+      {
+        "q": "How many levels are there?",
+        "a": "Coin Sort features 100+ puzzle levels of progressively increasing difficulty. Later levels introduce more colours and tighter tube margins that require more moves ahead planning to solve."
+      },
+      {
+        "q": "Is Coin Sort safe for kids?",
+        "a": "Yes. Coin Sort has no chat features, no in-app purchases, and no advertising targeting children. The logic puzzle format is educational and appropriate for all ages."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No account is ever required. Navigate to the Play page and the first puzzle starts immediately — no registration, no login."
+      }
     ],
     "cta": {
       "headline": "One move at a time — your first puzzle is ready.",
       "subtext": "No download, no signup. Open Coin Sort in your browser and start sorting."
     }
   },
-
   "playPage": {
     "howItWorksSubtitle": "Three steps to solving your first Coin Sort puzzle",
     "steps": [
-      { "title": "Read the Tubes",          "desc": "Visit the Play page. Coin Sort loads in your browser instantly. Before moving any coins, scan all the tubes and identify which colours need the most immediate separation." },
-      { "title": "Move One Coin at a Time", "desc": "Tap a tube to select the top coin. Tap a destination tube to place it — valid only if the destination is empty or its top coin matches yours. Use empty tubes as temporary holding positions to unlock stuck configurations." },
-      { "title": "Complete the Sort",       "desc": "When each tube holds only one colour (or is empty), the level is complete. Every level is solvable — if you get stuck, there is always a valid sequence of moves that finishes the puzzle." }
+      {
+        "title": "Read the Tubes",
+        "desc": "Visit the Play page. Coin Sort loads in your browser instantly. Before moving any coins, scan all the tubes and identify which colours need the most immediate separation."
+      },
+      {
+        "title": "Move One Coin at a Time",
+        "desc": "Tap a tube to select the top coin. Tap a destination tube to place it — valid only if the destination is empty or its top coin matches yours. Use empty tubes as temporary holding positions to unlock stuck configurations."
+      },
+      {
+        "title": "Complete the Sort",
+        "desc": "When each tube holds only one colour (or is empty), the level is complete. Every level is solvable — if you get stuck, there is always a valid sequence of moves that finishes the puzzle."
+      }
     ]
   },
-
   "faqPage": {
     "items": [
-      { "q": "Is Coin Sort really free?",         "a": "Yes. Coin Sort is completely free to play, with no subscriptions, no in-app purchases, and no hidden premium levels." },
-      { "q": "What devices can I play on?",       "a": "Coin Sort works in any modern browser on desktop, laptop, tablet, or smartphone. No download is required — open the Play page and the puzzle starts immediately." },
-      { "q": "How does the game work?",           "a": "Coin Sort presents tubes filled with randomly ordered coloured coins. You move coins one at a time between tubes — a move is valid only if the destination is empty or its top coin matches the coin you're moving. Sort every tube to a single colour to complete the level. Early levels use three or four colours; later levels use up to six with tighter margins." },
-      { "q": "How many levels are there?",        "a": "Coin Sort features 100+ puzzle levels. Difficulty increases by adding more colours and reducing the number of empty tubes, requiring players to plan further ahead with each level." },
-      { "q": "Can I play offline?",               "a": "Coin Sort requires an internet connection to initially load. Once loaded, puzzles run smoothly without significant ongoing data usage." },
-      { "q": "Is my progress saved?",             "a": "Level progress is stored locally in your browser on the same device. The game resumes from the last completed level when you return. Clearing browser data will reset progress." },
-      { "q": "Is Coin Sort safe for children?",   "a": "Yes. Coin Sort contains no violent content, no social chat features, no in-app purchases, and no advertising targeting children. The logic puzzle format is educational and appropriate for all ages." },
-      { "q": "Do I need to create an account?",   "a": "No account is ever required. Navigate to the Play page and begin the first puzzle immediately." }
+      {
+        "q": "Is Coin Sort really free?",
+        "a": "Yes. Coin Sort is completely free to play, with no subscriptions, no in-app purchases, and no hidden premium levels."
+      },
+      {
+        "q": "What devices can I play on?",
+        "a": "Coin Sort works in any modern browser on desktop, laptop, tablet, or smartphone. No download is required — open the Play page and the puzzle starts immediately."
+      },
+      {
+        "q": "How does the game work?",
+        "a": "Coin Sort presents tubes filled with randomly ordered coloured coins. You move coins one at a time between tubes — a move is valid only if the destination is empty or its top coin matches the coin you're moving. Sort every tube to a single colour to complete the level. Early levels use three or four colours; later levels use up to six with tighter margins."
+      },
+      {
+        "q": "How many levels are there?",
+        "a": "Coin Sort features 100+ puzzle levels. Difficulty increases by adding more colours and reducing the number of empty tubes, requiring players to plan further ahead with each level."
+      },
+      {
+        "q": "Can I play offline?",
+        "a": "Coin Sort requires an internet connection to initially load. Once loaded, puzzles run smoothly without significant ongoing data usage."
+      },
+      {
+        "q": "Is my progress saved?",
+        "a": "Level progress is stored locally in your browser on the same device. The game resumes from the last completed level when you return. Clearing browser data will reset progress."
+      },
+      {
+        "q": "Is Coin Sort safe for children?",
+        "a": "Yes. Coin Sort contains no violent content, no social chat features, no in-app purchases, and no advertising targeting children. The logic puzzle format is educational and appropriate for all ages."
+      },
+      {
+        "q": "Do I need to create an account?",
+        "a": "No account is ever required. Navigate to the Play page and begin the first puzzle immediately."
+      }
     ]
   },
-
   "howToPlayPage": {
     "intro": "Coin Sort is a colour-sorting puzzle where you move coins between tubes to group each colour into its own stack. Every tube starts with a mixed random arrangement. Your moves are constrained: you can only pick up the top coin from any tube, and you can only place it onto an empty tube or one where the current top coin matches your colour. The challenge isn't the rule set — it's thinking far enough ahead to avoid creating configurations where no further valid moves exist.",
     "steps": [
-      { "title": "Identify Blocked Colours",  "desc": "Before moving anything, find which colours are most split across tubes. A colour that appears on top in several tubes simultaneously is the most accessible to consolidate. A colour buried under three other colours in every tube it appears in is the most constrained. Start by working on the accessible colours first — they create space for the harder ones." },
-      { "title": "Use Empty Tubes Wisely",    "desc": "Empty tubes are your primary resource in Coin Sort. They function as temporary holding positions, allowing you to move coins out of the way to access coins beneath them. Don't fill empty tubes permanently with mismatched colours early in the puzzle — doing so eliminates your flexibility for later moves." },
-      { "title": "Build Complete Stacks",     "desc": "The most efficient Coin Sort strategy is to fully complete one colour's tube before moving to the next. A completed tube (all coins of one colour, tube full) removes those coins from active consideration and reduces the complexity of the remaining puzzle. Partially sorting several colours simultaneously tends to create tangled configurations." }
+      {
+        "title": "Identify Blocked Colours",
+        "desc": "Before moving anything, find which colours are most split across tubes. A colour that appears on top in several tubes simultaneously is the most accessible to consolidate. A colour buried under three other colours in every tube it appears in is the most constrained. Start by working on the accessible colours first — they create space for the harder ones."
+      },
+      {
+        "title": "Use Empty Tubes Wisely",
+        "desc": "Empty tubes are your primary resource in Coin Sort. They function as temporary holding positions, allowing you to move coins out of the way to access coins beneath them. Don't fill empty tubes permanently with mismatched colours early in the puzzle — doing so eliminates your flexibility for later moves."
+      },
+      {
+        "title": "Build Complete Stacks",
+        "desc": "The most efficient Coin Sort strategy is to fully complete one colour's tube before moving to the next. A completed tube (all coins of one colour, tube full) removes those coins from active consideration and reduces the complexity of the remaining puzzle. Partially sorting several colours simultaneously tends to create tangled configurations."
+      }
     ],
     "mechanic": {
       "title": "Move Constraints and Validity",
@@ -102,14 +251,28 @@
     },
     "difficultyProgression": "Coin Sort scales difficulty through two primary variables: the number of colours in play and the number of empty tubes available. Early levels (1-20) use three to four colours with two empty tubes, giving players enough space to experiment and recover from mistakes. Mid-range levels (21-60) introduce five colours and reduce empty tubes to one, requiring more deliberate planning. Advanced levels (61-100+) use six colours with minimal empty tube availability, where the solution requires finding a specific move sequence — trial-and-error is no longer viable, and players must reason through the configuration from the starting position.",
     "tips": [
-      { "title": "Never Fill Empty Tubes Early",         "desc": "The most common mistake in Coin Sort is using the empty tubes as permanent storage for mid-level moves. Once an empty tube holds a mixed colour arrangement, it functions as just another blocked tube. Protect empty tubes until you specifically need them for the next planned move sequence. They are your most valuable resource — spend them deliberately." },
-      { "title": "Work on One Colour at a Time",         "desc": "Attempting to sort all colours simultaneously spreads your moves across too many partial stacks and usually results in a gridlocked board. Identify the colour with the most coins already on top across tubes and consolidate it fully first. One completed colour tube reduces the problem size and reveals better options for the remaining colours." },
-      { "title": "Plan Three Moves Ahead",               "desc": "In early Coin Sort levels, individual move evaluation is enough. From level 20 onwards, the puzzle requires looking three to four moves ahead before committing. Specifically: after the move you're considering, what moves become available? What moves become blocked? If a move creates a configuration where the next two moves are forced and one of them is a dead end, the original move was wrong." },
-      { "title": "Restart Without Hesitation",           "desc": "Coin Sort levels are fully solvable by design. If you reach a state where no valid moves remain that make progress, the fastest path forward is restarting the level. Restarting is not failure — it's new information. Each restart reveals part of the solution space that trial moves had already explored, which makes the next attempt more informed." },
-      { "title": "Use the Undo Button Strategically",    "desc": "Most Coin Sort implementations include an undo function. Use it specifically for move-and-see evaluation: make a move, assess whether the board state is better or worse, and undo it if the result is unfavourable. This approach turns the undo button into a planning tool rather than a mistake-correction tool. It's the difference between reactive and proactive puzzle-solving." }
+      {
+        "title": "Never Fill Empty Tubes Early",
+        "desc": "The most common mistake in Coin Sort is using the empty tubes as permanent storage for mid-level moves. Once an empty tube holds a mixed colour arrangement, it functions as just another blocked tube. Protect empty tubes until you specifically need them for the next planned move sequence. They are your most valuable resource — spend them deliberately."
+      },
+      {
+        "title": "Work on One Colour at a Time",
+        "desc": "Attempting to sort all colours simultaneously spreads your moves across too many partial stacks and usually results in a gridlocked board. Identify the colour with the most coins already on top across tubes and consolidate it fully first. One completed colour tube reduces the problem size and reveals better options for the remaining colours."
+      },
+      {
+        "title": "Plan Three Moves Ahead",
+        "desc": "In early Coin Sort levels, individual move evaluation is enough. From level 20 onwards, the puzzle requires looking three to four moves ahead before committing. Specifically: after the move you're considering, what moves become available? What moves become blocked? If a move creates a configuration where the next two moves are forced and one of them is a dead end, the original move was wrong."
+      },
+      {
+        "title": "Restart Without Hesitation",
+        "desc": "Coin Sort levels are fully solvable by design. If you reach a state where no valid moves remain that make progress, the fastest path forward is restarting the level. Restarting is not failure — it's new information. Each restart reveals part of the solution space that trial moves had already explored, which makes the next attempt more informed."
+      },
+      {
+        "title": "Use the Undo Button Strategically",
+        "desc": "Most Coin Sort implementations include an undo function. Use it specifically for move-and-see evaluation: make a move, assess whether the board state is better or worse, and undo it if the result is unfavourable. This approach turns the undo button into a planning tool rather than a mistake-correction tool. It's the difference between reactive and proactive puzzle-solving."
+      }
     ]
   },
-
   "blog": {
     "headline": "Guides &amp; Strategy",
     "subheading": "Puzzle strategies, beginner tips, and the science behind why sorting puzzles are so satisfying — all for Coin Sort players.",
@@ -310,5 +473,7 @@
         ]
       }
     ]
-  }
+  },
+  "embedUrl": "https://html5.gamemonetize.co/imaqq34l0iw90484l470rs0cfu7pofze/",
+  "embedSource": "GameMonetize - Coin Sort Puzzle"
 }
