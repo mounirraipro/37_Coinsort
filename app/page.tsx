@@ -77,7 +77,7 @@ export default function Home() {
           <div className="lp-hero-ctas">
             <Link href="/play" className="lp-btn lp-btn-primary">
               <Icon name="play" size={16} />
-              Play Free Now
+              Play For  Free Now
             </Link>
             <Link href="/how-to-play" className="lp-btn lp-btn-ghost">
               How to Play
